@@ -188,7 +188,7 @@
        id="g6183">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.22350693px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.22350693px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="-47.363548"
          y="-216.80026"
          id="text8595"
@@ -216,7 +216,7 @@
        style="display:inline">
       <text
          xml:space="preserve"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.77773094px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.77773094px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          x="430.9364"
          y="14.866719"
          id="text8605"
@@ -245,7 +245,7 @@
          id="text6190"
          y="14.866719"
          x="430.9364"
-         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.77773094px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:20.77773094px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
          xml:space="preserve"><tspan
            y="14.866719"
            x="430.9364"
@@ -264,7 +264,7 @@
     </g>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       style="font-style:normal;font-weight:normal;font-size:40px;line-height:125%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        x="1546.3481"
        y="188.06953"
        id="text9332"
@@ -593,79 +593,79 @@
                y="346.45001"
                x="507.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">N</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">N</text>
             <text
                id="text142"
                y="387.25"
                x="487.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">N</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">N</text>
             <text
                id="text144"
                y="389.57999"
                x="441.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">N</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">N</text>
             <text
                id="text146"
                y="323.20999"
                x="455.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">N</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">N</text>
             <text
                id="text148"
                y="346.47"
                x="419.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">N</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">N</text>
             <text
                id="text150"
                y="397.07001"
                x="341.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text152"
                y="400.17999"
                x="398.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text156"
                y="281.10999"
                x="307.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text158"
                y="330.48001"
                x="288.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text160"
                y="315.32001"
                x="322.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text162"
                y="336.60001"
                x="372.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text164"
                y="296.28"
                x="272.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">O</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">O</text>
             <text
                id="text166"
                y="305.79999"
                x="298.29999"
                font-size="12pt"
-               style="font-size:15px;font-family:'Fira Sans';fill:#000000">P</text>
+               style="font-size:15px;font-family:'Fira Sans';fill:#ff0000">P</text>
             <g
                id="g4213">
               <g
@@ -715,19 +715,19 @@
                    id="line32" />
               </g>
               <text
-                 style="font-size:15px;font-family:'Fira Sans';fill:#000000"
+                 style="font-size:15px;font-family:'Fira Sans';fill:#ff0000"
                  font-size="12pt"
                  x="314.29999"
                  y="263.04001"
                  id="text138">N</text>
               <text
-                 style="font-size:15px;font-family:'Fira Sans';fill:#000000"
+                 style="font-size:15px;font-family:'Fira Sans';fill:#ff0000"
                  font-size="12pt"
                  x="244.3"
                  y="260.62"
                  id="text154">O</text>
               <text
-                 style="font-size:15px;font-family:'Fira Sans';fill:#000000"
+                 style="font-size:15px;font-family:'Fira Sans';fill:#ff0000"
                  font-size="12pt"
                  x="286.25989"
                  y="226.10014"
@@ -739,7 +739,7 @@
              id="text4191"
              y="657.38385"
              x="437.76205"
-             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.22655678px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:16.22655678px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              xml:space="preserve"><tspan
                y="657.38385"
                x="437.76205"
@@ -748,7 +748,7 @@
                style="font-size:17.59815025px">adenosine monophosphate</tspan></text>
           <text
              xml:space="preserve"
-             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:15.18919086px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+             style="font-style:normal;font-variant:normal;font-weight:300;font-stretch:normal;font-size:15.18919086px;line-height:125%;font-family:'Fira Sans';-inkscape-font-specification:'Fira Sans Light';letter-spacing:0px;word-spacing:0px;display:inline;fill:#ff0000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
              x="497.8479"
              y="472.51379"
              id="text5035"

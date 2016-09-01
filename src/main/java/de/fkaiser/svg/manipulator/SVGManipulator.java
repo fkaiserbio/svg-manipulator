@@ -24,14 +24,27 @@ public class SVGManipulator {
             String styleKey = args[i].split(":")[0];
             String newStyleValue = args[i].split(":")[1];
             try {
+                LOGGER.info("reading SVG file " + inputLocation);
                 SVGReader svgReader = new SVGReader(inputLocation);
                 svgReader.getSvgFiles().entrySet().forEach(entry -> {
 
+                    LOGGER.info("manipulating SVG file " + inputLocation);
                     SVGManipulator svgManipulator = new SVGManipulator();
-                    List<String> manipulatedSVG = svgManipulator.manipulateSVG(entry.getValue(), styleKey, newStyleValue);
+                    List<String>
+                            manipulatedSVG =
+                            svgManipulator.manipulateSVG(entry.getValue(), styleKey, newStyleValue);
                     try {
-                        Files.write(entry.getKey().resolveSibling(entry.getKey().getFileName().toString().split("\\.")[0] + "_manipulated.svg"), manipulatedSVG.stream().collect(Collectors.joining("\n")).getBytes());
+                        Files.write(entry.getKey().resolveSibling(entry.getKey()),
+                                    manipulatedSVG.stream().collect(Collectors.joining("\n")).getBytes());
                     } catch (IOException e) {
+                        LOGGER.log(Level.SEVERE, e.getMessage(), e);
+                    }
+
+                    LOGGER.info("converting SVG to PDF");
+                    SVGConverter svgConverter = new SVGConverter(entry.getKey());
+                    try {
+                        svgConverter.convert();
+                    } catch (IOException | InterruptedException e) {
                         LOGGER.log(Level.SEVERE, e.getMessage(), e);
                     }
                 });

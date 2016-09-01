@@ -1,6 +1,7 @@
 package de.fkaiser.svg.manipulator;
 
 import java.io.File;
+import java.io.FileFilter;
 import java.io.IOException;
 import java.nio.file.FileVisitOption;
 import java.nio.file.Files;
@@ -15,6 +16,8 @@ import java.util.stream.Collectors;
  */
 public class SVGReader {
 
+    private static final String SVG_SUFFIX = ".svg";
+    private static final FileFilter SVG_FILE_FILTER = pathname -> pathname.getName().toLowerCase().endsWith(SVG_SUFFIX);
     private final Path inputPath;
     private Map<Path, List<String>> svgFiles;
 
@@ -26,9 +29,17 @@ public class SVGReader {
         inputPath = file.toPath();
         if (file.isDirectory()) {
             readDirectory();
-        } else if (file.isFile()) {
+        } else if (file.isFile() && isSVGFile(file)) {
             svgFiles.put(inputPath, readSVG(inputPath));
         }
+    }
+
+    private boolean isSVGFile(File file) {
+        return SVG_FILE_FILTER.accept(file);
+    }
+
+    private boolean isSVGFile(Path path) {
+        return isSVGFile(path.toFile());
     }
 
     public Map<Path, List<String>> getSvgFiles() {
@@ -36,10 +47,11 @@ public class SVGReader {
     }
 
     private void readDirectory() throws IOException {
-        Files.walk(inputPath, Integer.MAX_VALUE, FileVisitOption.FOLLOW_LINKS).forEach(path -> {
+        Files.walk(inputPath, Integer.MAX_VALUE, FileVisitOption.FOLLOW_LINKS).filter(this::isSVGFile).forEach(path -> {
             try {
-                if (path.toFile().isFile())
+                if (path.toFile().isFile()) {
                     svgFiles.put(path, readSVG(path));
+                }
             } catch (IOException e) {
                 e.printStackTrace();
             }
